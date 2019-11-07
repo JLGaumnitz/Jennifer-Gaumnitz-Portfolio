@@ -54,14 +54,20 @@
   /* Remove margins from "page content" on small screens */
   @media only screen and (max-width: 600px) {
     #main {
-      margin-left: 0
+      margin-left: 0;
     }
 
     #content-word {
       font-size: 6em;
+      padding-top: 30px;
     }
 
     #code-word {
       font-size: 6em;
     }
+  }
+
+  #myNavbar {
+    margin-left: 0;
+    padding-bottom: 30px;
   }
